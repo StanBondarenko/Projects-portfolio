@@ -42,6 +42,7 @@ A client application will be implemented as a separate final project.
 
 Repository:  
 https://github.com/StanBondarenko/picture-gallery-api
+
 ---
 
 ## Frontend Projects
