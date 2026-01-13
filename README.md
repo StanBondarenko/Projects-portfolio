@@ -20,6 +20,28 @@ Key aspects:
 Repository:
 https://github.com/StanBondarenko/library-management-system
 
+### Picture Gallery API (Java, Spring Boot, JDBC, PostgreSQL)
+
+Backend REST API for managing and exploring a picture gallery domain.
+
+The project was built with a database-first approach and focuses on backend architecture, data access, and security.  
+It provides endpoints for working with pictures, authors, eras, techniques, plots, and users.
+
+Key highlights:
+- Spring Boot REST API
+- JDBC / JdbcTemplate with DAO pattern
+- Clear separation between controllers, DAO interfaces, and JDBC implementations
+- RowMapper-based mapping from ResultSet to POJOs
+- JWT-based authentication and role-based authorization
+- Many-to-many relationships (user favorite authors and pictures)
+- API testing with Postman
+- ERD and UML diagrams included for database and architecture overview
+
+The project is intentionally backend-only.  
+A client application will be implemented as a separate final project.
+
+Repository:  
+https://github.com/StanBondarenko/picture-gallery-api
 ---
 
 ## Frontend Projects
