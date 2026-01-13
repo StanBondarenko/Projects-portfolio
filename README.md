@@ -37,7 +37,7 @@ Repository:
 These repositories are used for learning, experimentation, and skill development.
 
 - Java practice:  
-  https://github.com/StanBondarenko/java-practice (or current `java` repo)
+  https://github.com/StanBondarenko/java/classes-practice (or current `java` repo)
 
 - Frontend practice:  
   (link will be added)
