@@ -47,11 +47,30 @@ https://github.com/StanBondarenko/picture-gallery-api
 
 ## Frontend Projects
 
-### Tetris (JavaScript)
-Browser-based Tetris game focused on game logic, state management, and DOM rendering.
+### Tetris (Vanilla JavaScript)
 
-Repository:
-(link will be added)
+Browser-based implementation of the classic Tetris game built with **HTML, CSS, and Vanilla JavaScript**, without using any frameworks.
+
+The project focuses on core frontend fundamentals:
+- game state management
+- grid-based algorithms
+- collision detection
+- keyboard input handling
+- DOM rendering without external libraries
+
+Key highlights:
+- Separate logic matrix and visual (DOM) matrix
+- Manual collision detection and figure rotation logic
+- Line clearing and scoring system
+- Dynamic speed increase based on cleared lines
+- Next figure preview
+- ES Modules–based project structure
+
+The game is currently implemented using plain JavaScript to demonstrate low-level control over game logic and rendering.  
+A future iteration of the project will include a rewritten version using **React**.
+
+Repository:  
+https://github.com/StanBondarenko/tetris-game-frontend
 
 ---
 
