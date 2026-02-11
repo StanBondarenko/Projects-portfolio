@@ -73,6 +73,46 @@ Repository:
 https://github.com/StanBondarenko/tetris-game-frontend
 
 ---
+## Fullstack Projects
+
+### Home Recipe Organizer
+
+A full-stack web application designed to help users decide what to cook based on the ingredients they already have at home.
+
+The project combines a **React-based frontend** with a **Java Spring Boot backend** and a **PostgreSQL** database.  
+It focuses on real-world business logic, clean architecture, and clear separation of concerns between client and server.
+
+#### Core functionality:
+- user registration and authentication (JWT)
+- ingredient management (add, update, delete, unit conversion)
+- recipe browsing and filtering
+- recipe matching based on available ingredients
+- favorite recipes per user
+- step-by-step cooking instructions
+
+#### Backend highlights:
+- RESTful API built with Java and Spring Boot
+- layered architecture (controllers, services, DAO)
+- JDBC (`JdbcTemplate`) with explicit SQL for core domain logic
+- Spring Data JPA for reference data
+- JWT-based stateless authentication
+- role-based authorization
+- centralized exception handling
+
+#### Frontend highlights:
+- single-page application built with React
+- client-side routing with React Router
+- state management using React Hooks
+- authenticated API communication via Axios
+- dynamic UI updates based on backend responses
+- reusable components and form-based workflows
+
+The project is implemented as a portfolio-grade application and reflects real full-stack development workflows, from database design to UI interaction.
+
+Repository:  
+[https://github.com/StanBondarenko/home-recipe-organizer](https://github.com/StanBondarenko/home-recipe-organizer)
+
+---
 
 ## Practice Repositories
 
